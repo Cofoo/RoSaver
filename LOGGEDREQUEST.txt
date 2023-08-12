@@ -1,0 +1,19 @@
+POST https://economy.roblox.com/v1/purchases/products/PRODUCTID HTTP/1.1
+Accept: */*
+Cache-Control: no-cache
+Connection: keep-alive
+User-Agent: Roblox/WinUWP ROBLOX UWP App 1.0.0RobloxApp/2.589.593 (GlobalDist; RobloxDirectDownload)
+Roblox-Game-Id: 300a98f7-06ae-425c-8be4-2276699b25e5
+Roblox-Universe-Id: 4973016121
+Roblox-Place-Id: 14391075430
+Requester: Client
+PlayerCount: 1
+Content-Type: application/json
+X-CSRF-TOKEN: wsu+7tHtKkxM
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Host: economy.roblox.com
+Content-Length: 168
+Cookie: [REDACTED]
+
+{ "expectedCurrency": 1, "expectedPrice": 55, "expectedSellerId": 0, "expectedPromoId": 0, "userAssetId": 0, "saleLocationType": "Game", "saleLocationId": 14391075430 }
