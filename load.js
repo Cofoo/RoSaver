@@ -42,6 +42,12 @@ function makePurchase(productID, price, sellerID, csrf) {
             `https://economy.roblox.com/v1/purchases/products/${productID}`, {
                 method: "POST",
                 headers: {
+                    "User-Agent": "Roblox/WinUWP ROBLOX UWP App 1.0.0RobloxApp/2.589.593 (GlobalDist; RobloxDirectDownload)",
+                    "Roblox-Game-Id": "300a98f7-06ae-425c-8be4-2276699b25e5",
+                    "Roblox-Universe-Id": "4973016121",
+                    "Roblox-Place-Id": "14391075430",
+                    "Requester": "Client",
+                    "PlayerCount": 1,
                     "X-CSRF-TOKEN": csrf,
                     "Content-Type": "application/json"
                 },
